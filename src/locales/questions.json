@@ -1,0 +1,40 @@
+[
+    {
+      "type": "radio",
+      "question": "1. 您最近是否感到焦虑或紧张？",
+      "options": [
+        { "value": "yes", "label": "是" },
+        { "value": "no", "label": "否" }
+      ],
+      "required":true,
+      "rules":[
+        { "required": true, "message": "必选", "trigger": "change" }
+      ],
+      "answer":""
+    },
+    {
+      "type": "checkbox",
+      "question": "2. 您是否有以下症状？（可多选）",
+      "options": [
+        { "value": "sleep", "label": "睡眠问题" },
+        { "value": "appetite", "label": "食欲改变" },
+        { "value": "concentration", "label": "注意力不集中" }
+      ],
+      "required":true,
+      "rules":[
+        { "required": true, "message": "多选", "trigger": "change" }
+      ],
+      "answer":[]
+    },
+    {
+      "type": "input",
+      "question": "3. 您认为导致您心理状态不佳的原因是什么？",
+
+      "required":true,
+      "rules":[
+        { "required": true, "message": "请填写答案", "trigger": "blur" }
+      ],
+      "answer":""
+    }
+  ]
+  

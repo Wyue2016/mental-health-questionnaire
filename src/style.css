@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+*,:before,:after {
+  box-sizing: border-box
+}
+:focus-visible {
+  outline: none !important;
+}
+html {
+  line-height: 1.4;
+    font-size: 16px;
+    text-size-adjust: 100%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  line-height: 1.4;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  direction: ltr;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color var(--el-transition-duration-fast)
+}
+
+body,html {
+  -webkit-font-smoothing: unset!important;
+  font-family: -apple-system,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial!important
+}
+
+body {
+  word-break: break-word;
+  overflow-y: scroll;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #909090
+}
+
+a:hover {
+  color: #007fff
+}
+
+button {
+  list-style: 1
+}
+
+button:disabled {
+  cursor: not-allowed
+}
+
+button.disabled,button.disabled:hover {
+  background-color: #d2d2d2;
+  cursor: not-allowed
+}
+
+ul {
+  padding: 0;
+  margin: 0
+}
+
+li {
+  list-style: none
+}
+#app
+{
+  overflow-x: initial;
+}
